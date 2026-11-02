@@ -12,7 +12,9 @@
 <meta property="og:url" content="https://nalary09-byte.github.io/">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="클라이학원">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://nalary09-byte.github.io/images/klei-classroom.jpg">
+<meta property="og:image:alt" content="클라이학원 강의실, 전자칠판과 소수정예 책상">
+<meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -37,6 +39,7 @@
     {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "14:00", "closes": "22:00"},
     {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "22:00"}
   ],
+  "image": ["https://nalary09-byte.github.io/images/klei-classroom.jpg", "https://nalary09-byte.github.io/images/klei-entrance.jpg", "https://nalary09-byte.github.io/images/klei-board-writing.jpg"],
   "knowsAbout": ["수학", "영어", "내신 대비"],
   "sameAs": ["https://blog.naver.com/nalary09", "https://m.place.naver.com/place/1281748691/home"]
 }
@@ -79,6 +82,11 @@ a{color:var(--accent)}
 nav{display:flex;flex-wrap:wrap;gap:6px 18px;margin:20px 0 0;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-weight:600}
 nav a{text-decoration:none}
 .crumb{font-size:.9rem;color:var(--muted);margin:0 0 16px}
+figure{margin:20px 0}
+figure img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line)}
+figcaption{color:var(--muted);font-size:.9rem;margin-top:6px}
+.photos{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.photos figure{margin:0}
 footer{margin-top:48px;color:var(--muted);font-size:.9rem}
 </style>
 </head>
@@ -128,6 +136,10 @@ footer{margin-top:48px;color:var(--muted);font-size:.9rem}
 <section>
 <h2>시설과 강의실</h2>
 <p>한 반 8명 소수정예 강의실에서 전자칠판으로 수업합니다. 건물에 무료 주차장이 있습니다. 찾아오는 방법은 <a href="/location/">오시는 길·상담 안내</a>를 보세요.</p>
+<div class="photos">
+<figure><img src="/images/klei-classroom.jpg" alt="클라이학원 강의실, 전자칠판과 소수정예 책상" width="900" height="1200" loading="lazy" decoding="async"><figcaption>한 반 8명 소수정예 강의실</figcaption></figure>
+<figure><img src="/images/klei-smartboard.jpg" alt="클라이학원 수업용 전자칠판에 수학 극한 문제 풀이를 판서한 모습" width="959" height="1200" loading="lazy" decoding="async"><figcaption>전자칠판 판서 수업</figcaption></figure>
+</div>
 </section>
 
 <section>
