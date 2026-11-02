@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://nalary09-byte.github.io/sitemap.xml
